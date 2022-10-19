@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>CSJ2022</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    </head>
+<body>
+    <h1>CSJ2022</h1>
+    <form action="/" method="post" >
+
+        <hr>
+        <h3>ETH account:</h3><br>
+        <input type="text" id="account" name="account"><hr>
+        <h3>Private Key:</h3><br>
+        <input type="text" id="pkey" name="pkey"><hr>
+        <h3>Amount to send:</h3><br>
+        <input type="text" id="amount" name="amount"><hr>
+        <input  type="submit" value="Comprar CSJ">
+    </form>
+</body>
+</html>
